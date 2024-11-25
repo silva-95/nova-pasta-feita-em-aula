@@ -1,0 +1,269 @@
+/* Reset de algumas propriedades para garantir consistência */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1E88E5; /* Azul */
+  color: #fff;
+  padding: 15px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+nav.navbar {
+  background-color: #FF6F00; /* Laranja */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #B0B0B0; /* Cinza */
+}
+
+/* Estilos para o Catálogo */
+.catalog {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.catalog .title-wrapper-catalog p {
+  color: #1E88E5; /* Azul */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.catalog .title-wrapper-catalog h3 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.filter-card {
+  margin-bottom: 30px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 60%;
+  border: 2px solid #B0B0B0;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #FF6F00; /* Laranja */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-button:hover {
+  background-color: #E65C00; /* Laranja escuro */
+}
+
+.card-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+}
+
+.card-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 1.8rem;
+  color: #1E88E5; /* Azul */
+}
+
+.card-content p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card-content button {
+  background-color: #FF6F00; /* Laranja */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.card-content button:hover {
+  background-color: #E65C00; /* Laranja escuro */
+}
+
+/* Estilos para a seção "Sobre" */
+.about {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about .title-wrapper-about p {
+  color: #1E88E5; /* Azul */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.about .title-wrapper-about h3 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-content img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.about-content h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Estilos para os Destaques */
+.features {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.features .title-wrapper-features p {
+  color: #1E88E5; /* Azul */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.features .title-wrapper-features h3 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.feature-card-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.feature-card-item:hover {
+  transform: scale(1.05);
+}
+
+.feature-card-item img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature-text-content h3 {
+  font-size: 1.6rem;
+  color: #1E88E5; /* Azul */
+}
+
+.feature-text-content p {
+  color: #555;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1E88E5; /* Azul */
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-company, .footer-rental, .footer-social, .footer-contact {
+  flex: 1 1 20%;
+  margin: 10px;
+}
+
+.footer-links h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #B0B0B0; /* Cinza */
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.last {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 1rem;
+}
